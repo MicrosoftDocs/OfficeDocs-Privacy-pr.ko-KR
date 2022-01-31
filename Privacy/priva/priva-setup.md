@@ -1,5 +1,5 @@
 ---
-title: Priva 시작
+title: Priva 시작하기
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: 조직에 맞게 Microsoft Priva를 설정하고, 역할 및 사용 권한을 설정하고, 중요한 설정을 구성하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249102"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280250"
 ---
-# <a name="get-started-with-priva"></a>Priva 시작
+# <a name="get-started-with-priva"></a>Priva 시작하기
 
-개인 정보 위험을 식별하고 완화하는 데 도움을 받을 수 있도록 Microsoft Priva를 사용할 준비가 된 경우 다음 단계에 따라 선행 단계를 설정하고 개인 정보 정보 분석 탐색을 시작하세요.
+개인 정보 위험을 식별하고 완화하는 데 도움을 받기 위해 Microsoft Priva를 사용할 준비가 되었다면 다음 단계에 따라 필수 구성 요소를 설정하고 개인 정보 인사이트 탐색을 시작하세요.
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>1단계: 구독 및 라이선스 확인
 
@@ -37,7 +37,7 @@ Priva는 다음 라이선스를 [](https://compliance.microsoft.com/) Microsoft 
 
 Priva는 Priva Privacy Risk Management 및 Priva Subject Rights Requests의 두 가지 솔루션에 대한 라이선스 옵션을 제공합니다. 이러한 구성은 개별적으로 또는 함께 구매할 수 있습니다. 주체 권한 요청에 대한 라이선스를 얻을 때 처리해야 하는 요청 수에 적합한 라이선스 계층을 선택할 수 있습니다. 원하는 경우 추가 요청을 구입할 수 있습니다.
 
-자세한 라이선싱에 대한 지침은 [보안 및 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management)을 참조하세요.
+자세한 라이선싱에 대한 지침은 [보안 및 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva)을 참조하세요.
 
 > [!Note]
 > Priva는 미국 정부 Community(GCC) 보통, GCC 또는 DoD(국방부) 고객은 사용할 수 없습니다.
