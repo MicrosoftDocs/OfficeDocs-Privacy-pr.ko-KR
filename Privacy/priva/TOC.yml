@@ -1,0 +1,38 @@
+- name: Microsoft Priva에 대해 알아보기
+  href: priva-overview.md
+- name: 무료 Priva 평가판에 대해 알아보기
+  href: priva-trial.md
+- name: Priva 시작하기
+  href: priva-setup.md
+- name: Priva에서 권한 및 역할 설정
+  href: priva-permissions.md
+- name: Priva 설정 구성
+  href: priva-settings.md
+- name: Priva에서 개인 데이터 찾기 및 시각화
+  href: priva-data-profile.md
+- name: 개인 정보 위험 관리
+  items:
+    - name: 개인 정보 보호 위험 관리에 대해 알아보기
+      href: risk-management.md
+    - name: 정책 만들기
+      href: risk-management-policies.md
+    - name: 정책 관리
+      href: risk-management-policies-manage.md
+    - name: 경고 조사 및 수정
+      href: risk-management-alerts.md
+    - name: 최종 사용자 알림
+      href: risk-management-notifications.md
+- name: 주체 권한 요청
+  items:
+    - name: 주체 권한 요청에 대한 자세한 정보
+      href: subject-rights-requests.md
+    - name: 요청 만들기
+      href: subject-rights-requests-create.md
+    - name: 데이터 일치 설정
+      href: subject-rights-requests-data-match.md
+    - name: 데이터 검토 및 공동 작업
+      href: subject-rights-requests-data-review.md
+    - name: 보고서 가져오기 및 요청 수행
+      href: subject-rights-requests-reports.md
+    - name: 작업 자동화
+      href: subject-rights-requests-automate.md
