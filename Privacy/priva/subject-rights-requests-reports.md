@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 주체 권한 요청에 대해 Microsoft Priva에서 만든 데이터 패키지를 관리하고 데이터 주체에 대한 요청을 이행하는 방법을 학습합니다.
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249206"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542836"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>보고서 생성 및 주체 권한 요청 수행
 
@@ -56,7 +56,13 @@ zip 파일의 내용을 검토한 후 필요한 경우 수정하여 최종 패�
 
 ## <a name="manage-data-retention"></a>데이터 보존 관리
 
-이 도구를 통해 생성된 보고서 및 Azure에 저장된 주석이 있는 파일과 같은 관련 데이터는 지정된 기간 동안 저장됩니다. 이 기간은 데이터 보존 기간 섹션의 설정 전체 수준에서 정의됩니다. 이  섹션에서는 30 **일에서** 90일 사이를 선택할 수 있습니다. 이러한 데이터 보존 기간이 정책 및 법적 의무를 준수하는지 확인하시기 바랍니다.
+이 도구를 통해 생성된 보고서 및 Azure에 저장된 주석이 있는 파일과 같은 관련 데이터는 지정된 기간 동안 저장됩니다. 데이터 보존 기간은 **Priva 설정** 정의되어 있으며 모든 주체 권한 요청에 적용됩니다. 데이터 보존 기간을 보거나 변경하기 위해 아래 단계를 따르세요.
+
+1. Priva Subject Rights Requests의 어디에서나 설정 오른쪽 **위** 모서리에 있는 톱니바(기어 아이콘)를 선택합니다.
+2. 왼쪽 **탐색에서 데이터** 보존 기간을 선택합니다.
+3. 드롭다운 메뉴를 사용하여 보존 기간으로 30일 또는 90일을 선택합니다.
+
+선택한 데이터 보존 기간이 조직의 정책 및 법적 의무를 준수하는지 확인해야 합니다.
 
 ## <a name="legal-disclaimer"></a>법적 고지 조항
 
