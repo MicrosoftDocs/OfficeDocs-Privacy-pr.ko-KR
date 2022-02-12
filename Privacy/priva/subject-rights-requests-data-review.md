@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva에서 수집한 주체 권한 요청 데이터를 검토하고 요청을 완료하기 위해 공동 작업을 하는 방법을 학습합니다.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542846"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768432"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>주체 권한 요청에 대한 데이터 검토
 
@@ -47,9 +47,9 @@ Microsoft Priva에서 주체 권한 요청[](subject-rights-requests-create.md)(
 요청은 시간이 지날 때 또는 여러 참가자가 작업해야 할 수 있습니다. Priva는 다음 단계에 대한 상태 및 지침을 지속적으로 업데이트합니다. 이러한 업데이트는 주체 권한 요청의 개요 페이지에서 볼 수 있습니다.
 
 #### <a name="data-estimate"></a>데이터 예상
-요청을 만든 후 Priva는 즉시 사용자 환경의 데이터 주체와의 잠재적인 일치 Microsoft 365 시작됩니다. 기준과 일치하는 것으로 생각되는 모든 항목을 확인하면 요청의 개요 페이지에서 데이터 예상 요약 카드에 예상 **항목이 표시됩니다.**  검색 범위 내의 데이터 양은 예상을 완료하는 데 걸릴 시간의 양에 영향을 미치게 됩니다.
+요청을 만든 후 Priva는 즉시 사용자 환경의 데이터 주체와의 잠재적인 일치 Microsoft 365 시작됩니다. 기준과 일치하는 것으로 생각되는 모든 항목을 확인하면 요청의 개요 페이지에서 데이터 예상 요약 카드에 예상 **항목이 표시됩니다.**  검색 범위 내의 데이터 양은 예상을 완료하는 데 걸릴 기간에 영향을 미치게 됩니다.
 
-요청은 자동으로 다음 데이터 검색 단계로 이동되며, 이 단계에서 모든 콘텐츠 항목이 함께 수집되어 이해 관계자가 데이터 검토에 대해 공동 작업을 할 수 있습니다. 그러나 경우에 따라 검색으로 이동하기 전에 데이터 예상을 일시 중지하고 계속하기 전에 다음 단계에 대해 알릴 수 있습니다.
+요청은 자동으로 다음 데이터 검색 단계로 이동되며, 여기서 모든 콘텐츠 항목이 함께 수집되어 관련자가 데이터 검토를 위해 공동 작업을 할 수 있습니다. 경우에 따라 검색으로 이동하기 전에 데이터 예상을 일시 중지하고 계속하기 전에 취할 다음 단계를 알려 릴리즈합니다.
 
 주체 권한 요청을 처음 만들 때 데이터 예상 단계에서 자동으로 일시 중지할 수 있습니다. 만들기 프로세스 중에 검색 **설정 단계에서 첫** 번째 예상 결과 표시 **옵션을** 선택합니다. 검색 설정 단계에 대한 [세부 정보를 검토합니다](subject-rights-requests-create.md#define-search-settings).
 
