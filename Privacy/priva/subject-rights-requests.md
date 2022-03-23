@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva의 주체 권한 요청 솔루션은 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 데 도움이 됩니다.
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249245"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758447"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Priva 주체 권한 요청에 대한 자세한 정보
 
@@ -31,9 +31,7 @@ Microsoft Priva는 주체 권한 요청 솔루션을 통해 이러한 문의를 
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Priva가 주체 권한 요청 이행을 지원하는 방법
 
-주체 권한 요청 주기는 조직에 대한 개인의 요청으로 시작됩니다. 일단 수신된 Priva의 기능을 사용하여 해당 데이터를 수집하고, 공동 작업하고, 검토하고, 보고서를 만들 수 있습니다. 그런 다음 데이터 주체에게 찾은 결과를 알리고 Priva 외부에서 요청을 이행하는 데 필요한 기타 작업(예: 데이터 지우기)을 수행할 수 있습니다. 워크플로를 관리하고 자동화하는 데 도움을 주기 위해 Priva의 통합된 통합 템플릿을 Power Automate 있습니다.
-
-![주체 권한 요청에 대한 워크플로입니다.](../media/priva-srr-cycle.png)
+주체 권한 요청 주기는 조직에 대한 개인의 요청으로 시작됩니다. 일단 수신된 Priva의 기능을 사용하여 해당 데이터를 수집하고, 공동 작업하고, 검토하고, 보고서를 만들 수 있습니다. 그런 다음 데이터 주체에게 찾은 결과를 알리고 Priva 외부에서 요청을 이행하는 데 필요한 기타 작업(예: 데이터 지우기)을 수행할 수 있습니다. 워크플로를 관리하고 자동화하는 데 도움을 주기 위해 통합된 통합 Power Automate 수 있습니다.
 
 ### <a name="create-requests-and-collect-data"></a>요청 만들기 및 데이터 수집
 
