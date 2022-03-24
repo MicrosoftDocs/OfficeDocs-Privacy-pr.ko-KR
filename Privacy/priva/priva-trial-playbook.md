@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 평가판에 대해 알아보고 평가 기간 동안 수행할 권장 조치를 참조하고 중요한 문서에 대한 링크를 검토합니다.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249110"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765511"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>평가판 플레이북: Microsoft Priva
 
@@ -32,13 +32,13 @@ Microsoft Priva 평가판 플레이북에 오신 것을 환영합니다.
 
 Microsoft 권장 사항을 사용하여 Priva가 데이터 수리, 데이터 전송 및 데이터 과도 공유와 같은 개인 정보 위험을 사전 식별하고 보호하고, 조직이 대규모로 주체 요청을 자동화 및 관리하는 데 도움을 주며, 직원이 스마트한 데이터 처리 결정을 내릴 수 있도록 하는 방법을 학습할 수 있습니다.
 
-## <a name="getting-started"></a>시작
+## <a name="getting-started"></a>시작하기
 
 *이러한 작업은 90일 평가판에서 시도할 주요 기능에 대한 권장 사항입니다.*
 
 선행 준비를 설정하여 평가판을 시작합니다. Priva는 개별적으로 시도하고 구매할 수 있는 Priva 개인 정보 보호 위험 관리 및 Priva 주체 권한 요청의 두 가지 주요 솔루션으로 구성됩니다. 라이선스 및 구매 세부 정보는 라이선스 관리에서 [Microsoft.com.](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)
 
-### <a name="privacy-risk-management"></a>개인 정보 보호 위험 관리
+### <a name="privacy-risk-management"></a>개인 정보 위험 관리
 
 개인 정보 보호 위험 **관리** 솔루션을 사용하여 조직의 개인 데이터를 보호하고 개인 정보 보호를 강화하는 회사를 구축하는 방법을 탐색할 수 있습니다.
 
@@ -69,10 +69,10 @@ Microsoft Priva 사용을 시작할 준비가 된 경우 다음 단계에 따라
 
 Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시각화를 제공하여 조직이 저장하는 데이터를 이해하는 데 도움이 됩니다.
 
-시작을 위해 다음 페이지의 Priva 섹션으로 Microsoft 365 규정 준수 센터 다음 [](https://compliance.microsoft.com/) 페이지를 하세요.
+시작을 위해 에지의 Priva 섹션으로 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) 다음 페이지를 하세요.
 
-1. [개요](priva-data-profile.md#explore-the-overview-page): 개인 데이터의 양, 범주, 위치 및 이동을 포함하여 개인 정보 보호 환경에 대한 집계된 보기를 Microsoft 365 제공합니다. 또한 개인 데이터가 과도하게 공유, 전송 또는 사용되지 않는 경우와 관련된 개인 정보 보호 위험의 현재 상태 및 추세를 확인할 수 있습니다.
-1. [데이터 프로필](priva-data-profile.md#explore-the-data-profile-page): 조직이 볼륨, 유형 및 위치(저장소 Microsoft 365 지역)에 저장하는 개인 데이터의 스냅숏을 제공합니다.
+1. [개요](priva-data-profile.md#explore-the-overview-page): 사용자 환경의 개인 데이터의 양, 범주, 위치 및 이동을 포함하여 개인 정보 보호 환경에 대한 집계된 Microsoft 365 제공합니다. 또한 개인 데이터가 과도하게 공유, 전송 또는 사용되지 않는 경우와 관련된 개인 정보 보호 위험의 현재 상태 및 추세를 확인할 수 있습니다.
+1. [데이터 프로필](priva-data-profile.md#explore-the-data-profile-page): 조직에서 볼륨, 유형 및 위치(저장소 Microsoft 365 지역)를 포함하여 조직에서 저장하는 개인 데이터의 스냅숏을 제공합니다.
 
 ## <a name="learn-about-policies"></a>정책에 대한 자세한 정보
 
@@ -148,11 +148,11 @@ Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 �
 
 1. [데이터 가져오기 준비](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [개인 데이터Chema 정의](subject-rights-requests-data-match.md#define-the-personal-data-schema)
-1. [업로드 데이터 저장](subject-rights-requests-data-match.md#upload-personal-data)
+1. [업로드 데이터 보호](subject-rights-requests-data-match.md#upload-personal-data)
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>데이터 검토 및 주체 권한 요청에 대한 공동 작업
 
-주체 권한 요청을 만든 후 Priva는 주체에 대한 입력을 사용하여 조직의 사용자 환경과 일치하는 Microsoft 365 합니다. 이 데이터가 컴파일된 후 결과를 검토하고 포함할 데이터를 선택한 후 필요한 경우 정보를 편집할 수 있습니다.
+주체 권한 요청을 만든 후 Priva는 주체에 대한 입력을 사용하여 조직의 사용자 환경의 일치 Microsoft 365 합니다. 이 데이터가 컴파일된 후 결과를 검토하고 포함할 데이터를 선택한 후 필요한 경우 정보를 편집할 수 있습니다.
 
 1. [요청 세부 정보 검토 및 진행 상태 모니터링](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
 1. [검색 쿼리 보기 및 편집](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (선택 사항)
@@ -163,9 +163,9 @@ Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 �
 
 주체 권한 요청에 대한 데이터 검토를 완료한 후 이행 요청으로 이동할 수 있습니다.
 
-1. [데이터 주체에 대한 최종 보고서 준비](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [데이터 주체에 대한 최종 보고서 준비](subject-rights-requests-reports.md)
 1. [파트너 솔루션과 통합](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [데이터 보존 관리](subject-rights-requests-reports.md#manage-data-retention)
+1. [데이터 보존 관리](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>주체 권한 요청 작업 자동화
 

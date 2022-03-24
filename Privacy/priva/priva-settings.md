@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva의 전역 설정 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746782"
+ms.locfileid: "63758427"
 ---
 # <a name="configure-priva-settings"></a>Priva 설정 구성
 
@@ -64,7 +64,3 @@ ms.locfileid: "63746782"
 태그 설정은 모든 주체 권한 요청에 적용됩니다.
 
 자세한 내용은 주체 권한 요청에 대한 데이터를 검토할 때 [태그 적용을 참조합니다](subject-rights-requests-data-review.md#apply-tags).
-
-이 **설정** 데이터 **검토** 태그를 방문하여 태그를 검토하고 관리합니다.
- 
-이러한 태그를 사용하여 수동으로 삭제해야 할 수 있는 콘텐츠와 같이 추가 주의가 필요한 콘텐츠를 나타낼 수 있습니다. 이 설정 섹션에서는 사용자 지정 태그의 이름과 설명을 편집할 수 있습니다. 시스템에서 제공하는 기본 제공 태그에 대한 태그 설명을 편집할 수도 있습니다. 시스템 태그의 이름은 변경할 수 없습니다. 주체 권한 요청에 대한 자세한 내용은 주체 권한 요청에 대한 데이터 [검토를 참조합니다](subject-rights-requests-data-review.md#step-3-review-data).
