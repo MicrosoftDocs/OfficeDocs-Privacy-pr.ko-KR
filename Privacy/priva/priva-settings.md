@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva의 전역 설정 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758427"
+ms.locfileid: "63765491"
 ---
 # <a name="configure-priva-settings"></a>Priva 설정 구성
 
@@ -46,7 +46,7 @@ ms.locfileid: "63758427"
 
 ## <a name="data-retention-periods"></a>데이터 보존 기간
 
-이 설정은 Priva Subject Rights Requests와 관련이 있습니다. 이를 통해 요청이 닫힌 후 수집된 데이터 및 보고서를 보존하려는 기간에 대한 기본 설정을 제어할 수 있습니다. 이 설정은 30일 또는 90일로 설정할 수 있으며 만든 모든 주체 권한 요청에 적용됩니다. 데이터 보존 기간이 조직의 정책 및 법적 의무를 준수하는지 확인하는 것이 좋습니다. 자세한 내용은 주체 권한 [요청에 대한 데이터 보존 설정에 대해 자세히 알아보아야 합니다](subject-rights-requests-reports.md#manage-data-retention).
+이 설정은 Priva Subject Rights Requests와 관련이 있습니다. 이를 통해 요청이 닫힌 후 수집된 데이터 및 보고서를 보존하려는 기간에 대한 기본 설정을 제어할 수 있습니다. 이 설정은 30일 또는 90일로 설정할 수 있으며 만든 모든 주체 권한 요청에 적용됩니다. 데이터 보존 기간이 조직의 정책 및 법적 의무를 준수하는지 확인하는 것이 좋습니다. 주체 권한 요청 [에 대한 데이터 보존에 대해 자세히 알아보습니다](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>데이터 검토 태그
 
