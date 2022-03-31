@@ -1,5 +1,5 @@
 ---
-title: Microsoft Priva에 대한 자세한 내용은
+title: Microsoft Priva에 대해 알아보기
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva는 조직이 조직에 저장된 개인 데이터를 평가하고Microsoft 365 개인 정보 위험을 식별하고 수정하는 데 도움을 주며, 주체 권한 요청을 대규모로 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249115"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586461"
 ---
-# <a name="learn-about-microsoft-priva"></a>Microsoft Priva에 대한 자세한 내용은
+# <a name="learn-about-microsoft-priva"></a>Microsoft Priva에 대해 알아보기
 
 개인 정보 보호는 현재 조직과 소비자에게 가장 큰 관심사로, 개인 데이터 처리 방식에 대한 우려가 꾸준히 증가하고 있습니다. 유럽 연합의 GDPR(일반 데이터 보호 규정) 및 캘리포니아 소비자 개인 정보 보호법(CCPA)과 같은 규정 및 법률은 전 세계 사용자에게 영향을 미치며, 조직이 개인 데이터를 저장하는 방법에 대한 규칙을 설정하고 조직에서 수집한 개인 데이터를 관리할 수 있는 권한을 사용자에게 제공합니다.
 
@@ -55,7 +55,7 @@ Priva의 기능은 조직의 데이터와 위험을 줄이기 위한 정책 템�
 
 ### <a name="find-and-visualize-personal-data"></a>개인 데이터 찾기 및 시각화
 
-개인 정보 보호 환경 이해는 조직이 개인 데이터를 포함하는 Microsoft 365, 사용하는 서비스 전체에서 저장되는 콘텐츠 및 관리되는 조건에 대한 철저한 이해로 시작합니다. Priva는 조직이 개인 데이터를 자동으로 검색하고, 조직의 개인 정보 문제 및 관련 위험을 이해하는 데 도움이 되는 주요 분석 및 인사이트를 관리자에게 제공할 수 있도록 지원합니다. 솔루션은 조직의 개인 데이터가 저장되는 위치, 이 데이터 흐름 방식 및 시간 경과에 따라 개인 데이터 추세를 평가합니다.
+개인 정보 보호 환경 이해는 조직이 개인 데이터를 포함하는 Microsoft 365, 사용하는 서비스 전체에서 저장되는 콘텐츠 및 관리되는 조건에 대한 철저한 이해로 시작됩니다. Priva는 조직이 개인 데이터를 자동으로 검색하고, 조직의 개인 정보 문제 및 관련 위험을 이해하는 데 도움이 되는 주요 분석 및 인사이트를 관리자에게 제공할 수 있도록 지원합니다. 솔루션은 조직의 개인 데이터가 저장되는 위치, 이 데이터 흐름 방식 및 시간 경과에 따라 개인 데이터 추세를 평가합니다.
 
 이러한 인사이트는 중요한 **추세를 통해** 데이터에 대한 자동 업데이트와 지속적인 분석을 탐색할 수 있는 데이터 프로필을 제공하는 개요 대시보드 내에 표시됩니다. 이러한 인사이트를 통해 조직의 개인 정보 문제를 이해하고 이를 수정하기 위한 조치를 식별할 수 있습니다.
 
@@ -79,7 +79,7 @@ Priva는 다음과 같은 시나리오에 맞게 지속적인 정책을 설정�
 
 전 세계 특정 개인 정보 보호 규정을 통해 데이터 주체라고도 하는  개인은 회사에서 수집한 개인 데이터를 검토하거나 관리하도록 요청할 수 있습니다. 구조화되지 않은 많은 정보를 저장하는 회사에서 관련 데이터를 찾는 작업은 확연한 작업일 수 있습니다.
 
-Priva 주체 권한 요청은 관련 데이터에 쉽게 액세스하고 기존 비즈니스 프로세스에 맞는 사용자 지정 가능한 워크플로에 쉽게 액세스할 수 있도록 데이터 주체 권한 이행을 자동화하는 기능을 제공합니다. 개인과 관련된 데이터를 검색할 때 주체 권한 요청 솔루션은 사용자 환경 전체에서 자동으로 데이터를 Microsoft 365 결과를 검토하고 보고서를 생성하는 데 도움을 줍니다. 조직의 여러 사용자와 안전하게 공동 작업을 통해 요청을 완료할 수 있습니다. 기본 제공 서식 파일을 사용하여 비즈니스 프로세스에 따라 워크플로를 사용자 지정할 수도 있습니다.
+Priva 주체 권한 요청은 관련 데이터에 쉽게 액세스하고 기존 비즈니스 프로세스에 맞는 사용자 지정 가능한 워크플로에 쉽게 액세스할 수 있도록 데이터 주체 권한 이행을 자동화하는 기능을 제공합니다. 개인과 관련된 데이터를 검색할 때 주체 권한 요청 솔루션은 사용자 환경 전체에서 자동으로 Microsoft 365 결과를 검토하고 보고서를 생성하는 데 도움을 줍니다. 조직의 여러 사용자와 안전하게 공동 작업을 통해 요청을 완료할 수 있습니다. 기본 제공 서식 파일을 사용하여 비즈니스 프로세스에 따라 워크플로를 사용자 지정할 수도 있습니다.
 
 자세한 내용은 [Priva Subject Rights Requests에 대해 자세히를 참조합니다](subject-rights-requests.md).
 
@@ -91,7 +91,7 @@ Priva는 Microsoft 준수 관리자와 함께 작업 [할 수 있습니다](/mic
 
 개인 데이터는 일반적으로 해당 사람을 식별하는 데 사용할 수 있는 생생한 사람과 관련된 개인 정보입니다. 이름, 여권 번호, 사회 보장 번호 등 개인을 직접 식별할 수 있는 데이터 형식 또는 개인을 식별하는 데 사용할 수 있는 다양한 데이터 형식의 조합일 수 있습니다. 개인 데이터 또는 개인 정보의 정의는 해당 법률에 따라 다를 수 있으므로 법적 의무가 있는 데이터의 유형을 이해해야 합니다.
 
-Priva는 기본 기능을 Microsoft 365 SIT(중요한 정보 유형)를 사용하여 설정에 따라 이러한 개인 데이터 형식을 식별하는 [데 도움이 됩니다](/microsoft-365/compliance/sensitive-information-type-learn-about). 정의된 모든 중요한 정보 유형 목록을 검토하기 위해 중요한 정보 유형 [엔터티 정의를 참조하세요](/microsoft-365/compliance/sensitive-information-type-entity-definitions). 사용자 지정 중요한 정보 유형을 만들 수 있는 조직도 Priva를 사용하여 이러한 정보를 활용할 수 있습니다.
+Priva는 기본 기능을 Microsoft 365 SIT(중요한 정보 유형)를 사용하여 설정에 따라 이러한 개인 데이터 형식을 식별하는 데 [도움이 됩니다](/microsoft-365/compliance/sensitive-information-type-learn-about). 정의된 모든 중요한 정보 유형 목록을 검토하기 위해 중요한 정보 유형 [엔터티 정의를 참조하세요](/microsoft-365/compliance/sensitive-information-type-entity-definitions). 사용자 지정 중요한 정보 유형을 만들 수 있는 조직도 Priva를 사용하여 이러한 정보를 활용할 수 있습니다.
 
 Priva는 조직 테넌트 내의 다음 Microsoft 365 서비스에 저장된 Microsoft 365 평가합니다.
 
@@ -100,19 +100,48 @@ Priva는 조직 테넌트 내의 다음 Microsoft 365 서비스에 저장된 Mic
 - 비즈니스용 OneDrive
 - Microsoft Teams
 
-Priva는 조직의 조직 환경 내의 데이터만 Microsoft 365 평가합니다. 조직 환경의 일부가 아닌 개인 데이터에는 액세스하지 Microsoft 365 않습니다. 예를 들어 이 계정은 사용자의 개인 계정 Microsoft 365 않습니다.
+Priva는 조직의 조직 환경 내의 데이터만 Microsoft 365 평가합니다. 조직 환경의 일부가 아닌 개인 데이터에는 액세스하지 Microsoft 365 않습니다. 예를 들어 사용자의 개인 계정은 액세스하지 Microsoft 365 않습니다.
+
+## <a name="priva-availability"></a>Priva 가용성
+
+Microsoft Priva는 전 세계에 출시되었습니다. 조직에서 테넌트 프로비전한 위치에 따라 Priva를 완전히 사용할 수 없는 경우도 있습니다. 아래 목록에서는 조직에서 테넌트가 프로비전된 위치를 기준으로 Priva 가용성을 간략하게 설명합니다. Priva를 사용할 수 없는 경우 **Priva** 개인 정보 보호 위험 관리 및 **Priva** 주체 권한 요청이 기본 설정의 왼쪽 탐색에 Microsoft 365 규정 준수 센터. Priva가 모든 지리적 위치에서 액세스할 수 있도록 하여 이 목록을 계속 업데이트할 것입니다.
+
+지역 Microsoft 365 데이터에 대한 자세한 내용은 [Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)를 방문하십시오.
+
+**사용할 수 있음**
+
+- 오스트레일리아
+- 브라질
+- 캐나다
+- 프랑스
+- 독일
+- 인도
+- 일본
+- 영국
+- 미국(참고: 미국 정부 Community(GCC) 보통, GCC High 또는 DoD(국방부) 고객은 사용할 수 없습니다.
+
+**아직 사용할 수 없습니다.**
+
+- 노르웨이
+- 폴란드
+- 카타르
+- 싱가포르
+- 남아프리카 공화국
+- 대한민국
+- 스페인
+- 스웨덴
+- 스위스
+- 아랍에미리트
 
 ## <a name="more-resources"></a>추가 리소스
 
-Priva의 비디오 미리 보기를 보기 위해 YouTube의 Microsoft Mechanics에서 Microsoft 365 대한 [AI 기반 개인 정보](https://www.youtube.com/watch?v=6OLky1biPIQ) 관리를 참조하세요.
+YouTube에서 Microsoft Mechanics의 [Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) 기능을 설명하는 13분 분간 비디오를 시청하세요.
 
-Microsoft가 개인 정보 보호에 접근하고 데이터를 보호하는 방법에 대한 자세한 내용은 다음을 방문하세요.
-
-- [Microsoft Privacy](/privacy)
+Microsoft가 개인 정보 보호에 접근하고 데이터를 보호하는 방법에 대한 자세한 내용은 Microsoft 개인 정보를 [방문하세요](/privacy).
 
 ## <a name="next-steps"></a>다음 단계
 
-Priva 사용을 시작하고 [Priva 시작을 참조합니다](priva-setup.md).
+Priva 사용을 시작하고 priva와 [함께 시작 참조합니다](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>법적 고지 조항
 
