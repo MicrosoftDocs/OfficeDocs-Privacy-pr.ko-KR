@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 조직의 개인 데이터를 처리하기 위한 개인 정보 취급 방침을 만들고 사용자 지정하는 방법을 알아봅니다.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865777"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930509"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>개인 정보 보호 위험 관리에서 정책 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "64865777"
 
 다음 단계에 따라 기본 템플릿을 사용하여 정책을 만듭니다.
 
-1. [Microsoft 365 규정 준수 센터에서](https://compliance.microsoft.com/) Priva 개인 정보 보호 위험 관리 섹션으로 이동하여 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)에서 Priva 개인 정보 보호 위험 관리 섹션으로 이동하여 **정책을** 선택합니다.
 1. **정책 만들기** 를 선택합니다.
 1. 원하는 템플릿 유형을 선택합니다. 그러면 템플릿에 대한 정보가 포함된 플라이아웃 창이 열립니다.
 1. 데이터 형식, 데이터 위치 및 정책과 일치하는 트리거 조건을 포함하여 템플릿의 기본 설정을 검토하려면 **설정 보기를** 선택합니다.
@@ -48,7 +48,7 @@ ms.locfileid: "64865777"
 
 모든 정책 유형은 이 기본 흐름을 따릅니다. 선택한 정책에 따라 특정 설정 및 옵션이 변경됩니다.
 
-1. [Microsoft 365 규정 준수 센터에서](https://compliance.microsoft.com/) Priva 개인 정보 보호 위험 관리 섹션으로 이동하여 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)에서 Priva 개인 정보 보호 위험 관리 섹션으로 이동하여 **정책을** 선택합니다.
 1. **정책 만들기** 를 선택합니다.
 1. 마법사 사용을 시작하려면 **사용자 지정** 옵션을 선택합니다.
 1. 기준 템플릿 유형( **데이터 과다 노출,** **데이터 전송** 또는 **데이터 최소화**)을 선택합니다. 각 옵션은 정책을 만드는 동안 특정 옵션을 제공합니다.
