@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 평가판에 대해 알아보고, 평가 기간 동안 수행할 권장 조치를 확인하고, 중요한 설명서에 대한 링크를 검토합니다.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930529"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014398"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>평가판 플레이북: Microsoft Priva
 
@@ -87,21 +87,21 @@ Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 �
 
 ## <a name="create-and-customize-policies"></a>정책 만들기 및 사용자 지정
 
-개인 정보 보호 위험 관리에서 조직에 중요한 개인 정보 위험 시나리오를 해결하기 위한 새 정책을 만듭니다. 빠른 시작을 위해 기본 템플릿을 사용하여 데이터 과다 노출, 데이터 전송 및 데이터 최소화 및 시나리오에 대한 새 정책을 만듭니다.
+개인 정보 보호 위험 관리에서 조직에 중요한 개인 정보 위험 시나리오를 해결하기 위한 새 정책을 만듭니다. 빠른 시작을 위해 템플릿 기본 설정을 사용하여 데이터 과다 노출, 데이터 전송 및 데이터 최소화 및 시나리오에 대한 새 정책을 만듭니다.
 
-1. [템플릿에서 정책 만들기](risk-management-policies.md#create-a-policy-from-a-template)
-1. [사용자 지정 정책 만들기](risk-management-policies.md#create-a-custom-policy)
-1. [모든 정책의 주요 설정에 대해 알아보기](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [데이터 최소화 정책에 대한 설정에 대해 알아보기](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [데이터 전송 정책에 대한 설정에 대해 알아보기](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [데이터 과다 노출 정책에 대한 설정에 대해 알아보기](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [기본 설정이 있는 템플릿을 사용하여 정책 만들기](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [템플릿 설정을 사용자 지정하여 정책 만들기](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [모든 정책의 주요 설정에 대해 알아보기](risk-management-policies.md)
+1. [데이터 최소화 정책에 대한 설정에 대해 알아보기](risk-management-policy-data-minimization.md)
+1. [데이터 전송 정책에 대한 설정에 대해 알아보기](risk-management-policy-data-transfer.md)
+1. [데이터 과다 노출 정책에 대한 설정에 대해 알아보기](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>정책 관리
 
 개인 정보 보호 위험 관리에서 데이터 최소화, 데이터 전송 또는 데이터 과다 노출 시나리오를 처리하는 정책을 만든 후에는 정책 설정을 검토하거나 업데이트할 수 있습니다. 또한 지속적인 사용을 위해 완전히 배포하기 전에 새 정책을 테스트할 수도 있습니다.
 
-1. [정책 세부 정보 보기](risk-management-policies-manage.md#view-policy-details)
-1. [정책 테스트](risk-management-policies-manage.md#test-your-policy)
+1. [정책 세부 정보 보기](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [정책 테스트](risk-management-policies-manage.md#testing-a-policy)
 1. [정책 삭제](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>정책 경고 및 문제 이해
@@ -117,9 +117,9 @@ Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 �
 
 개인 정보 보호 위험 관리는 콘텐츠 소유자에게 데이터 과다 노출, 데이터 최소화 및 데이터 전송 정책에 대한 일치 항목에 대해 직접 알릴 수 있습니다. 전자 메일 알림을 사용하면 사용자가 검토해야 하는 콘텐츠에 대해 쉽게 확인할 수 있습니다.
 
-1. [정책 알림에 대한 교육 콘텐츠 준비](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [정책에 대한 전자 메일 알림 설정](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [전자 메일 알림에서 문제 해결](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [정책 알림에 대한 교육 콘텐츠 준비](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [정책에 대한 전자 메일 알림 설정](risk-management-notifications.md#set-user-email-notifications)
+1. [전자 메일 알림 미리 보기 및 사용자 지정](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Teams 알림 보내기](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>주체 권한 요청에 대한 자세한 정보
