@@ -14,10 +14,14 @@
   items:
     - name: 개인 정보 보호 위험 관리에 대해 알아보기
       href: risk-management.md
-    - name: 정책 만들기
+    - name: 정책 만들기 및 관리 방법을 알아보기
       href: risk-management-policies.md
-    - name: 정책 관리
-      href: risk-management-policies-manage.md
+    - name: 과도한 데이터 노출 정책 만들기
+      href: risk-management-policy-data-overexposure.md
+    - name: 데이터 전송 정책 만들기
+      href: risk-management-policy-data-transfer.md
+    - name: 데이터 최소화 정책 만들기
+      href: risk-management-policy-data-minimization.md
     - name: 경고 조사 및 수정
       href: risk-management-alerts.md
     - name: 최종 사용자 알림
