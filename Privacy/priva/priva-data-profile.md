@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Priva의 개요 및 데이터 프로필과 조직의 Microsoft 365 환경에서 개인 데이터에 대한 인사이트를 얻는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930599"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059752"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Microsoft Priva에서 개인 데이터 찾기 및 시각화
 
@@ -75,7 +75,7 @@ Priva의 자동화된 검색 기능을 확인하려면 **개인 데이터 타일
 
 #### <a name="items-with-the-most-data-subject-content"></a>데이터 주체 콘텐츠가 가장 많은 항목
 
-이 인사이트는 주체 권한 요청에서 데이터 일치 기능의 정보를 참조하고 가장 많은 데이터 주체를 포함하는 Microsoft 365 내에서 검색된 콘텐츠 항목을 표시합니다. 해당 설정에 대한 자세한 내용은 [주체 권한 요청에 대한 자세한 내용을 참조하세요](subject-rights-requests.md).
+이 인사이트는 대부분의 데이터 주체의 개인 데이터가 포함된 콘텐츠 항목을 표시합니다. 이러한 인사이트를 받으려면 조직에서 [주체 권한 요청에 대한 데이터 일치를](subject-rights-requests-data-match.md) 설정해야 합니다.
 
 이러한 항목은 데이터 일치 구성을 확인하고 이러한 항목과 관련된 개인 정보 위험을 완화하는 데 도움이 될 수 있습니다. 요약 **보기** 에 대한 보기 요약을 선택합니다. 탐색 **을 선택하여** 이러한 항목 중 최대 100개에 대한 자세한 보기를 확인합니다. 여기에서 이러한 항목을 미리 볼 수 있고 관련성을 확인하고 목록을 .csv 형식으로 내보낼 수 있습니다.
 
