@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 주체에 대한 추가 정보를 Microsoft Priva에 업로드하는 방법을 알아봅니다.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930587"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059742"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>주체 권한 요청에 대한 데이터 일치
 
 데이터 일치를 통해 조직은 Microsoft Priva가 정확히 제공된 데이터 값을 기반으로 데이터 주체를 식별할 수 있도록 할 수 있습니다. 이렇게 하면 내부 담당자와 상호 작용하는 외부 사용자 모두에 대해 이러한 데이터 값에 해당하는 데이터 주체 콘텐츠를 찾는 정확도를 높일 수 있습니다. 또한 주체 권한 요청 생성 중에 필드를 수동으로 제공해야 하는 필요성이 간소화되고 주체 권한 요청 내에서 컨텍스트를 제공하고 항목에 가장 많은 데이터 주체 콘텐츠를 표시하는 개요 타일에 대한 컨텍스트를 제공합니다. 해당 보기에 대한 자세한 내용은 [Priva에서 개인 데이터 찾기 및 시각화를](priva-data-profile.md#items-with-the-most-data-subject-content) 참조하세요.
 
-데이터 일치 기능을 사용하려면 개인 정보 관리 역할 그룹의 구성원이어야 합니다. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 Priva 내에서 위쪽 탐색에서 **설정** 선택한 다음 **데이터 일치** 를 선택합니다. 여기에서 개인 데이터 스키마를 정의하고 아래와 같이 개인 데이터 업로드를 제공해야 합니다. 항목을 추가할 수 있으며 UI를 통해 추가한 항목을 삭제할 수 있습니다. 그러나 현재는 UI에서 항목을 수정할 수 없습니다.
+데이터 일치 기능을 사용하려면 개인 정보 관리 역할 그룹의 구성원이어야 합니다. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 Priva 내에서 위쪽 탐색에서 **설정** 선택한 다음 **데이터 일치** 를 선택합니다. 여기에서 개인 데이터 스키마를 정의하고 아래와 같이 개인 데이터 업로드를 제공해야 합니다. 항목을 추가할 수 있으며 추가한 항목을 삭제할 수 있지만 항목을 수정할 수는 없습니다.
 
 ## <a name="prepare-for-data-import"></a>데이터 가져오기 준비
 
@@ -35,7 +35,7 @@ ms.locfileid: "64930587"
 
 ## <a name="define-the-personal-data-schema"></a>개인 데이터 스키마 정의
 
-개인 데이터 스키마는 데이터 주체의 특성을 설명합니다. 데이터 일치 설정 영역의 첫 번째 탭에서 이 스키마를 업로드. 필요한 파일에는 **개인 데이터 스키마** XML 파일 및 **규칙 패키지** XML 파일이 포함 됩니다.
+데이터 일치를 설정하는 첫 번째 단계는 데이터 주체의 특성을 설명하는 개인 데이터 스키마를 정의하는 것입니다. 데이터 일치 설정 영역의 첫 번째 탭에 이 스키마를 업로드합니다. 필요한 파일에는 **개인 데이터 스키마** XML 파일 및 **규칙 패키지** XML 파일이 포함 됩니다.
 
 ### <a name="personal-data-schema-xml"></a>개인 데이터 스키마 XML
 
@@ -129,8 +129,13 @@ ms.locfileid: "64930587"
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>중요한 정보 유형
+
+데이터 일치를 설정하는 두 번째 단계는 PDM(개인 데이터 일치)에 대한 고유한 중요한 정보 유형을 만드는 것입니다. [중요한 정보 유형(SIT)](/microsoft-365/compliance/sensitive-information-type-learn-about)은 사회 보장 또는 신용 카드 번호와 같은 중요한 정보를 검색하는 패턴 기반 분류자입니다. PDM 중요한 정보 유형을 설정하면 제네릭 값이 아닌 정확한 데이터 값을 사용하여 일치 항목을 검색할 수 있습니다. 이 단계를 시작하려면 **PDM 중요한 정보 유형 만들기** 를 선택하여 만들기 마법사를 시작합니다.
+
 ## <a name="upload-personal-data"></a>개인 데이터 업로드
-개인 데이터 스키마를 정의한 후 데이터 일치 설정 페이지의 두 번째 탭에서 **개인 데이터 업로드** 를 수행할 수 있습니다. **추가** 를 선택하면 첫 번째 단계에서 정의한 개인 스키마를 선택한 다음 개인 데이터가 포함된 파일을 업로드합니다.
+
+개인 데이터 스키마 및 중요한 정보 유형을 정의한 후 세 번째 단계는 개인 데이터를 업로드하는 것입니다. **개인 데이터 업로드** 탭으로 이동하여 **추가** 를 선택하고 첫 번째 단계에서 정의한 개인 스키마를 선택한 다음, 개인 데이터가 포함된 파일을 업로드합니다.
 
 로컬 파일을 선택하거나 개인 데이터 파일이 포함된 기존 Microsoft Azure Storage 위치에 SAS URL을 제공하여 이 개인 데이터를 업로드할 수 있습니다.
 만든 스키마를 준수하는 이 프로세스의 첫 번째 단계로 파일을 준비한 경우 업로드에 해당 파일을 사용할 수 있습니다.
