@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 개인 정보 보호 위험 관리에서 정책 일치에 의해 발생한 경고 및 문제를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014388"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268331"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>개인 정보 보호 위험 관리에서 경고 조사 및 수정
 
@@ -71,9 +71,9 @@ Priva의 **개요** 페이지는 가장 일치하는 정책 및 현재 활성 �
 
 - **소유자에게 알림**: 검색된 문제에 대해 콘텐츠 소유자에게 알립니다.
 
-- **보존 레이블 적용**: 이 항목의 데이터 보존에 대한 레이블을 추가합니다. [보존 레이블에 대해 자세히 알아봅니다](/microsoft-365/compliance/create-apply-retention-labels).
+- **보존 레이블 적용**: 지정된 시간 후에 보존, 삭제 또는 보존할 수 있는 이 항목에 대한 레이블을 추가합니다. [보존 레이블에 대해 자세히 알아봅니다](/microsoft-365/compliance/retention).
 
-- **민감도 레이블 적용**: 이 항목 데이터의 민감도에 대한 레이블을 추가합니다. [민감도 레이블에 대해 자세히 알아봅니다](/microsoft-365/compliance/sensitivity-labels).
+- **민감도 레이블 적용**: 민감도를 식별하는 이 항목에 대한 레이블을 추가하고 필요에 따라 시각적 표시 및 암호화를 포함하는 보호를 추가합니다. [민감도 레이블에 대해 자세히 알아봅니다](/microsoft-365/compliance/sensitivity-labels).
 
 - **일치하지 않음으로 표시**: 검색 결과를 가양성으로 식별하여 콘텐츠 항목을 고려 대상에서 제거합니다.
 
