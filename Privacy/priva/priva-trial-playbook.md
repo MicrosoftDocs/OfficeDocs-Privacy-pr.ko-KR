@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 평가판에 대해 알아보고, 평가 기간 동안 수행할 권장 조치를 확인하고, 중요한 설명서에 대한 링크를 검토합니다.
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678205"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851693"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>평가판 플레이북: Microsoft Priva
 
@@ -164,10 +164,10 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 주체 권한 요청에 대한 데이터 검토를 완료한 후 처리 요청으로 이동할 수 있습니다.
 
 1. [데이터 주체에 대한 최종 보고서 준비](subject-rights-requests-reports.md)
-1. [파트너 솔루션과 통합](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [Microsoft Graph API 및 Power Automate 통해 통합 및 확장](subject-rights-requests-automate.md)
 1. [데이터 보존 관리](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>주체 권한 요청 작업 자동화
+## <a name="extend-with-power-automate"></a>Power Automate 사용하여 확장
 
 ServiceNow에서 티켓을 만들거나 기한에 대한 일정 미리 알림을 추가하는 등 사례 및 사용자에 대한 중요한 작업을 자동화하기 위해 Priva Power Automate 흐름을 사용하도록 설정합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 개인 정보 보호 위험 관리에서 사용자 알림 보내기
+title: 개인 정보 보호 위험 관리의 사용자 알림
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft Priva Privacy Risk Management에서 찾은 정책 일치 사항에 대해 콘텐츠 소유자에게 알리는 방법과 이러한 이메일 알림을 사용하여 문제를 해결하는 방법을 알아봅니다.
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 콘텐츠 소유자에게 Microsoft Priva 개인 정보 위험 관리 찾은 정책 일치에 대해 알리는 방법과 이러한 전자 메일 알림을 사용하여 문제를 해결하는 방법을 알아봅니다.
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014378"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851653"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>개인 정보 보호 위험 관리의 사용자 알림
 
@@ -48,7 +48,7 @@ ms.locfileid: "65014378"
 새 정책을 만들거나 기존 정책을 편집할 때 모든 정책 유형에 대한 전자 메일 알림을 설정할 수 있습니다. 이러한 설정은 정책 만들기 마법사의 **결과** 페이지에서 찾을 수 있습니다. [결과 정의: 전체 지침에 대한 사용자 알림 및 팁을](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) 방문하세요.
 
 > [!NOTE]
-> 이메일 알림을 보내는 개인 정보 보호 위험 관리의 전반적인 기능은 Priva **설정** 제어됩니다. 기본적으로 사용하도록 설정됩니다. 이 설정을 해제하면 개별 정책 수준에서 알림이 구성된 경우에도 모든 전자 메일이 중지됩니다. [사용자 알림 전자 메일 설정](priva-settings.md#user-notification-emails)에 대해 자세히 알아봅니다.
+> 전자 메일 알림을 보내는 개인 정보 보호 위험 관리의 전반적인 기능은 Priva **설정** 제어됩니다. 기본적으로 사용하도록 설정됩니다. 이 설정을 해제하면 개별 정책 수준에서 알림이 구성된 경우에도 모든 전자 메일이 중지됩니다. [사용자 알림 전자 메일 설정](priva-settings.md#user-notification-emails)에 대해 자세히 알아봅니다.
 
 ## <a name="send-notifications-in-teams"></a>Teams 알림 보내기
 
