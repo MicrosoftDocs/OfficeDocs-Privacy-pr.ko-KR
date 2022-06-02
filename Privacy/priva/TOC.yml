@@ -32,11 +32,11 @@
       href: subject-rights-requests.md
     - name: 요청 만들기
       href: subject-rights-requests-create.md
-    - name: 데이터 일치 설정
-      href: subject-rights-requests-data-match.md
     - name: 데이터 검토 및 공동 작업
       href: subject-rights-requests-data-review.md
-    - name: 보고서 가져오기 및 요청 수행
+    - name: 요청을 이행하기 위한 보고서 생성
       href: subject-rights-requests-reports.md
-    - name: 작업 자동화
+    - name: Microsoft Graph API 및 Power Automate와 통합
       href: subject-rights-requests-automate.md
+    - name: 데이터 일치 설정
+      href: subject-rights-requests-data-match.md
