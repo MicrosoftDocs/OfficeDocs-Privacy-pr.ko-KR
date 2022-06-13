@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365 조직의 개인 데이터를 처리하기 위한 Microsoft Priva Privacy Risk Management에서 정책을 만들고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Microsoft 365 조직의 개인 데이터를 처리하기 위해 Microsoft Priva 개인 정보 위험 관리 정책을 만들고 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014498"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046612"
 ---
 # <a name="privacy-risk-management-policies"></a>개인 정보 보호 위험 관리 정책
 
@@ -43,7 +43,7 @@ ms.locfileid: "65014498"
 
 템플릿에서 직접 정책을 만들 때 빠르게 시작하고 실행하는 데 도움이 되도록 대부분의 설정이 자동으로 선택됩니다. 템플릿 중 하나를 사용하여 기본 설정으로 정책을 만들려면 다음 단계를 수행합니다.
 
-1. [Microsoft Purview 규정 준수 센터의](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 보호 위험 관리를 찾아 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 센터의](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 위험 관리 찾아 **정책을** 선택합니다.
 
 2. 화면의 오른쪽 위 모서리에서 **정책 만들기** 를 선택합니다. 그러면 모든 정책 만들기 옵션이 나열된 플라이아웃 창이 표시됩니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "65014498"
 
 아래 단계에 따라 정책을 만듭니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 보호 위험 관리를 찾습니다. 드롭다운 메뉴에서 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 왼쪽 탐색 영역에서 Priva 개인 정보 위험 관리 찾습니다. 드롭다운 메뉴에서 **정책을** 선택합니다.
 
 2. **정책 만들기** 를 선택합니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "65014498"
 
 - **Exchange**: 정책은 사용자의 Exchange 계정에서 일치 항목을 식별합니다. 여기에는 전자 메일 본문의 콘텐츠와 Exchange 사서함에서 보내거나 받은 첨부 파일이 포함됩니다.
 
-- **OneDrive**: 정책은 사용자의 OneDrive Entreprise 계정에 저장된 파일에서 일치 항목을 식별합니다.
+- **OneDrive**: 정책은 사용자의 비즈니스용 OneDrive 계정에 저장된 파일에서 일치 항목을 식별합니다.
 
 - **Teams**: 정책은 Teams 채널 및 채팅에서 사용자의 메시지에서 일치 항목을 식별합니다.
 
@@ -273,7 +273,7 @@ ms.locfileid: "65014498"
 
 정책을 편집하려면 아래 단계를 수행합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 보호 위험 관리를 찾습니다. 드롭다운 메뉴에서 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 왼쪽 탐색 영역에서 Priva 개인 정보 위험 관리 찾습니다. 드롭다운 메뉴에서 **정책을** 선택합니다.
 
 2. **정책** 페이지의 행에서 편집할 정책을 선택하면 해당 정책의 세부 정보 페이지가 표시됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 주체 권한 요청을 수행하는 보고서 생성
+title: 보고서 생성 및 요청 닫기
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 주체 권한 요청에 대해 Microsoft Priva 만든 데이터 패키지를 관리하고 데이터 주체에 대한 요청을 수행하는 방법을 알아봅니다.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851665"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046692"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>주체 권한 요청을 수행하는 보고서 생성
+# <a name="generate-reports-and-close-a-request"></a>보고서 생성 및 요청 닫기
 
-Microsoft Priva 주체 권한 요청에 대한 데이터 검토를 완료한 후 계속 진행하여 요청을 처리할 수 있습니다. Priva 보고서를 만들고 데이터 검토 프로세스 중에 **포함** 으로 표시된 파일을 수집합니다. 이러한 데이터 패키지에서 선택한 파일을 데이터 주체에 제출하여 요청을 완료할 수 있습니다.
+**이 문서에서** 는 주체 권한 요청에서 생성되는 보고서의 종류를 이해합니다. 수집된 데이터의 보존 기간에 대해 알아보고 데이터 주체에 결과를 전달하고 요청을 닫기 위한 지침을 찾습니다.
+
+주체 권한 요청에 대한 데이터 검토를 완료한 후 다음 단계는 요청을 수행하는 데 필요한 보고서를 생성하는 것입니다. Priva 보고서를 만들고 데이터 검토 프로세스 중에 **포함** 으로 표시된 파일을 수집합니다. 이러한 데이터 패키지에서 선택한 파일을 데이터 주체에 제출하여 요청을 완료할 수 있습니다.
 
 ## <a name="understanding-reports"></a>보고서 이해
 
@@ -37,7 +39,7 @@ Microsoft Priva 주체 권한 요청에 대한 데이터 검토를 완료한 후
    > 데이터 패키지는 데이터를 검토하는 동안 항목을 **포함** 으로 표시하는 경우에만 생성됩니다.
 
    > [!IMPORTANT]
-   > 데이터 패키지는 **내보내기** 및 **액세스** 유형의 요청에 대해서만 생성됩니다. **후속 요청을 위해 태그가 지정된 목록에 대한** 데이터 패키지는 생성되지 않습니다. [주체 권한 요청 유형](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard)에 대한 세부 정보를 검토합니다.
+   > 데이터 패키지는 **내보내기** 및 **액세스** 유형의 요청에 대해서만 생성됩니다. **후속 요청을 위해 태그가 지정된 목록에 대한** 데이터 패키지는 생성되지 않습니다. [주체 권한 요청 유형](subject-rights-requests-create.md#request-types)에 대한 세부 정보를 검토합니다.
 
 2. **내부 사용 보고서**: 이러한 보고서는 주체 권한 요청과 관련된 조직의 내부 레코드에 대한 것입니다. 여기에는 추가 작업을 수행하거나 추가 작업을 수행하기 위해 데이터 검토 중에 태그를 적용한 모든 파일 목록과 감사 로그가 포함됩니다.
 
@@ -102,6 +104,12 @@ Priva 주체 권한 요청에 대한 파일을 식별하고 검색할 때 이 �
 4. **저장** 을 선택하여 설정을 저장합니다.
 
 선택한 데이터 보존 기간이 조직의 정책 및 법적 의무를 준수하는지 확인해야 합니다.
+
+## <a name="close-the-request"></a>요청 닫기
+
+주체 권한 요청과 관련된 필요한 모든 작업을 수행한 경우 요청 세부 정보 페이지의 오른쪽 위에 있는 **요청 닫기를 선택하여 요청을 닫** 은 것으로 표시합니다. 닫힌 요청은 더 이상 활성 상태가 아니라는 것을 의미하며, 조직에 대한 데이터 주체의 원래 요청을 수행하기 위해 더 이상 작업이 필요하지 않음을 나타냅니다.
+
+닫힌 요청은 다시 열 수 없지만 요청으로 돌아가서 요청 세부 정보 및 메모를 볼 수 있습니다. 요청에 대한 보고서는 설정된 [보존 기간에](#retention-periods-for-reports-and-data) 따라 보존됩니다.
 
 ## <a name="legal-disclaimer"></a>법적 고지 사항
 

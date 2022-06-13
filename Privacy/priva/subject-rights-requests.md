@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 주체 권한 요청 솔루션은 개인 데이터를 찾고 콘텐츠를 검토하고 보고서를 만드는 작업을 공동 작업하는 데 도움이 됩니다.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851683"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046712"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Priva 주체 권한 요청 대해 알아보기
 
@@ -53,9 +53,9 @@ Priva Microsoft 365 기본 기능을 사용하여 조직의 데이터에서 개�
 
 기본 제공 Power Automate 템플릿 중 하나를 사용하여 일정 미리 알림 설정 또는 ServiceNow에서 요청 레코드 만들기와 같은 일반적인 작업에 대한 흐름을 설정하여 자동화 기능을 확장합니다. Microsoft 365 주체 권한 요청 API를 사용하여 기존 주체 권한 전략에 자동화를 도입할 수도 있습니다.
 
-## <a name="getting-started"></a>시작하기
+## <a name="next-steps"></a>다음 단계
 
-[주체 권한 만들기 요청을](subject-rights-requests-create.md) 방문하여 첫 번째 요청으로 명시하는 방법을 알아봅니다.
+[요청 워크플로 및 세부 정보 이해 페이지를](subject-rights-requests-workflow.md) 방문하여 주체 권한 요청을 만들고 작업하는 진행 단계에 대해 알아봅니다. 첫 번째 요청을 시작하려면 [주체 권한 요청 만들기를](subject-rights-requests-create.md) 참조하세요.
 
 ## <a name="legal-disclaimer"></a>법적 고지 사항
 

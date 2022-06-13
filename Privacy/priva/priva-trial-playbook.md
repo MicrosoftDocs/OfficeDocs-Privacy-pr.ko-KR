@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 평가판에 대해 알아보고, 평가 기간 동안 수행할 권장 조치를 확인하고, 중요한 설명서에 대한 링크를 검토합니다.
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851693"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046592"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>평가판 플레이북: Microsoft Priva
 
@@ -69,7 +69,7 @@ Microsoft Priva 사용할 준비가 되면 다음 단계에 따라 필수 구성
 
 Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시각화를 제공하여 조직에서 저장하는 데이터를 이해하는 데 도움이 됩니다.
 
-시작하려면 Microsoft Purview 규정 준수 포털 Priva [섹션으로 이동하여](https://compliance.microsoft.com/) 다음 페이지를 봅니다.
+시작하려면 [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 Priva 섹션으로 이동하여 다음 페이지를 확인합니다.
 
 1. [개요](priva-data-profile.md#explore-the-overview-page): Microsoft 365 환경에서 개인 데이터의 볼륨, 범주, 위치 및 이동을 포함하여 개인 정보 보호 태세에 대한 집계된 보기를 제공합니다. 또한 개인 데이터가 과도하게 공유, 전송 또는 사용되지 않음으로 인해 발생하는 관련 개인 정보 보호 위험의 현재 상태 및 추세를 파악할 수 있습니다.
 1. [데이터 프로필](priva-data-profile.md#explore-the-data-profile-page): 볼륨, 유형 및 위치(스토리지 및 지리)를 포함하여 조직에서 Microsoft 365 저장하는 개인 데이터의 스냅샷을 제공합니다.
@@ -138,9 +138,9 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 
 주체 권한 관리 관리자는 기본 주체 권한 요청 페이지를 통해 새 주체 권한 요청을 열 수 있습니다. 마법사는 데이터 주체에 대한 개인 데이터를 찾고 요청을 수행하는 프로세스를 시작하는 프로세스를 안내합니다.
 
-1. [주체 권한 요청 마법사 사용](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) - 요청 만들기
-1. [검색 설정 정의](subject-rights-requests-create.md#define-search-settings)
-1. [검색 설정 구체화](subject-rights-requests-create.md#refine-your-search)
+1. [주체 권한 요청 마법사 사용](subject-rights-requests-create.md#create-a-request) - 요청 만들기
+1. [검색 설정 정의](subject-rights-requests-create.md#defining-search-settings)
+1. [검색 설정 구체화](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>주체 권한 요청에 대한 데이터 일치 관리
 
@@ -154,10 +154,10 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 
 주체 권한 요청을 만든 후 Priva 주체에 대한 입력을 사용하여 조직의 Microsoft 365 환경에서 일치 항목을 찾습니다. 이 데이터가 컴파일되면 결과를 검토하고, 포함할 항목을 선택하고, 필요에 따라 정보를 수정할 수 있습니다.
 
-1. [요청 세부 정보 검토 및 진행률 모니터링](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [검색 쿼리 보기 및 편집](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (선택 사항)
-1. [데이터 검토](subject-rights-requests-data-review.md#step-3-review-data)
-1. [요청 닫기](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [요청 세부 정보 검토 및 진행률 모니터링](subject-rights-requests-workflow.md)
+1. [검색 쿼리 보기 및 편집](subject-rights-requests-create.md#defining-search-settings)  (선택 사항)
+1. [데이터 검토](subject-rights-requests-data-review.md)
+1. [요청 닫기](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>주체 권한 요청 보고서 관리 및 요청 처리
 

@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft Priva Privacy Risk Management에서 데이터 최소화 정책을 만들어 조직에서 사용하지 않는 개인 데이터의 양을 줄이는 방법을 알아봅니다.
-ms.openlocfilehash: c5a883de696923e4453ed28739e9bf68b618f8d1
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Microsoft Priva 개인 정보 위험 관리 데이터 최소화 정책을 만들어 조직에서 사용하지 않는 개인 데이터의 양을 줄이는 방법을 알아봅니다.
+ms.openlocfilehash: 251bd0ad73c840f818c945b7f68e4557299ad406
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014481"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046622"
 ---
 # <a name="data-minimization-policies-in-privacy-risk-management"></a>개인 정보 보호 위험 관리의 데이터 최소화 정책
 
@@ -39,7 +39,7 @@ ms.locfileid: "65014481"
 
 기본 데이터 전송 정책을 만들려면 다음 단계를 수행합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 보호 위험 관리를 찾아 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 왼쪽 탐색 영역에서 Priva 개인 정보 위험 관리 찾아 **정책을** 선택합니다.
 
 2. 화면의 오른쪽 위 모서리에서 **정책 만들기** 를 선택합니다. 그러면 모든 정책 만들기 옵션이 나열된 플라이아웃 창이 표시됩니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "65014481"
 
 새 데이터 전송 정책을 만들려면 아래 단계를 완료합니다.
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/) 왼쪽 탐색 영역에서 Priva 개인 정보 보호 위험 관리를 찾아 **정책을** 선택합니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/)의 왼쪽 탐색 영역에서 Priva 개인 정보 위험 관리 찾아 **정책을** 선택합니다.
 
 2. 화면 오른쪽 위에 있는 **정책 만들기** 단추를 선택하면 모든 정책 만들기 옵션이 나열된 플라이아웃 창이 표시됩니다.
 
