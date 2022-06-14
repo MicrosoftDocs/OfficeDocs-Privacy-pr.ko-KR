@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 주체 권한 요청 워크플로 단계 및 요청 세부 정보 페이지를 이해합니다.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046761"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060090"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>워크플로 및 요청 세부 정보 페이지 이해
 
@@ -45,9 +45,15 @@ ms.locfileid: "66046761"
 
 ## <a name="understanding-the-request-details-page"></a>요청 세부 정보 페이지 이해
 
-Microsoft Purview 규정 준수 포털의 왼쪽 탐색에서 **Priva 주체 권한 요청** 선택하여 조직에서 만든 요청에 액세스하고 상태를 확인합니다. 주 주 주체 권한 요청 페이지의 상태 카드에는 활성, 닫힘 및 연체된 요청 수와 상위 요청 유형이 표시됩니다. 상태 카드 아래의 표에는 조직에서 만든 모든 요청이 나열되며 가장 최근에 만든 요청이 맨 위에 표시됩니다.
+Microsoft Purview 규정 준수 포털의 왼쪽 탐색에서 **Priva 주체 권한 요청** 선택하여 조직에서 만든 요청에 액세스하고 상태를 확인합니다. 아래에 표시된 주 주체 권한 요청 페이지의 상태 카드에는 활성, 닫힘 및 연체된 요청 수와 상위 요청 유형이 표시됩니다. 상태 카드 아래의 표에는 조직에서 만든 모든 요청이 나열되며 가장 최근에 만든 요청이 맨 위에 표시됩니다.
 
-요청의 세부 정보 페이지를 열려면 테이블에서 요청 이름을 선택합니다. 여기서 요청의 속성, 검색 결과 및 요청 상태에 대해 자세히 알아볼 수 있습니다. 이 페이지는 찾은 파일을 관리하고, 보고서 및 내보내기를 만들고, 요청을 완료하는 작업을 수행하고 공동 작업하는 허브가 됩니다.
+**주체 권한 요청 기본 페이지:** 
+![ 주체 권한 요청 기본 페이지입니다.](../media/priva-srr-overview.png)
+
+요청의 세부 정보 페이지를 열려면 테이블에서 요청 이름을 선택합니다. 여기서 요청의 속성, 검색 결과 및 요청 상태에 대해 자세히 알아볼 수 있습니다. 아래에 표시된 세부 정보 페이지는 찾은 파일을 관리하고, 보고서 및 내보내기를 만들고, 요청을 완료하는 작업을 수행하고 공동 작업하는 허브가 됩니다.
+
+**요청 세부 정보 페이지:**
+![ 주체 권한 요청 세부 정보 페이지.](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>개요 탭
 
