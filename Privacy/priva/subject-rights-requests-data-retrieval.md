@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터를 검색하는 방법 및 Microsoft Priva 주체 권한 요청 검색 설정을 수정하는 방법을 이해합니다.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046748"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166667"
 ---
-# <a name="data-estimate-and-retrieval"></a>데이터 예측 및 검색
+# <a name="data-estimate-and-retrieval"></a>데이터 예상 및 검색
 
 **이 문서에서는** 주체 권한 요청의 데이터 추정 및 데이터 검색 단계를 이해합니다. 요청의 검색 쿼리를 보고 편집하여 검색을 구체화하는 방법을 알아봅니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "66046748"
 
 **데이터 예상** 단계에서 요청이 일시 중지되는 두 가지 이유가 있습니다.
 
-1. 요청을 처음 만들 때 먼저 견적을 받도록 선택할 수 있습니다. 자세한 내용은 [요청 만들기](subject-rights-requests-create.md#create-a-request) 의 5단계를 참조하세요.
+1. 요청을 만들 때 먼저 예상치를 얻도록 선택할 수 있습니다. 자세한 내용은 [사용자 지정 요청을 만드는](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) 6단계를 참조하세요.
 
 2. 검토할 많은 수의 항목(10K 항목 이상)을 반환하도록 예상된 경우 워크플로가 일시 중지됩니다. 이 시점에서 결과를 미리 보고 [검색 쿼리를 편집](subject-rights-requests-create.md#refining-your-search) 할지 또는 식별된 항목을 계속 검색할지 결정할 수 있습니다.
 
