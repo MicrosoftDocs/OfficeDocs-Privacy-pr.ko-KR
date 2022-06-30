@@ -17,12 +17,13 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 평가판에 대해 알아보고, 평가 기간 동안 수행할 권장 조치를 확인하고, 중요한 설명서에 대한 링크를 검토합니다.
-ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
-ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
+ms.custom: trial-playbook
+ms.openlocfilehash: 87ffb0f5d8d751d9039c6e46cef2e9a94c177057
+ms.sourcegitcommit: 24bb4f96bcc8664460faa8b2c3b934a36e416240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66166637"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66549257"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>평가판 플레이북: Microsoft Priva
 
@@ -30,13 +31,13 @@ Microsoft Priva 평가판 플레이북에 오신 것을 환영합니다.
 
 이 플레이북은 개인 데이터를 보호하고 개인 정보 보호 복원력 있는 작업 공간을 구축하는 데 도움을 줌으로써 90일 무료 평가판을 최대한 활용할 수 있도록 도와줍니다.
 
-Microsoft 권장 사항을 사용하여 Priva 데이터 비장, 데이터 전송 및 데이터 과잉 공유와 같은 개인 정보 보호 위험을 사전에 식별하고 보호하고, 조직에서 대규모로 주체 요청을 자동화 및 관리하고, 직원들이 스마트 데이터 처리 결정을 내릴 수 있도록 하는 방법을 알아봅니다.
+Microsoft 권장 사항을 사용하여 Priva가 데이터 비장, 데이터 전송 및 데이터 과잉 공유와 같은 개인 정보 보호 위험을 사전에 식별하고 보호하고, 조직에서 대규모로 주체 요청을 자동화 및 관리하고, 직원들이 스마트 데이터 처리 결정을 내릴 수 있도록 하는 방법을 알아봅니다.
 
 ## <a name="getting-started"></a>시작하기
 
 *이러한 작업은 90일 평가판에서 시도할 주요 기능에 대한 권장 사항입니다.*
 
-필수 구성 요소를 설정하여 평가판을 시작합니다. Priva 별도로 시도하고 구매할 수 있는 두 가지 주요 솔루션인 Priva 개인 정보 위험 관리 및 Priva 주체 권한 요청 구성됩니다. 라이선스 및 구매 세부 정보는 [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp) 찾을 수 있습니다.
+필수 구성 요소를 설정하여 평가판을 시작합니다. Priva는 Priva 개인 정보 위험 관리 및 Priva 주체 권한 요청 두 가지 주요 솔루션으로 구성되며, 별도로 시도하고 구매할 수 있습니다. 라이선스 및 구매 세부 정보는 [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp) 찾을 수 있습니다.
 
 ### <a name="privacy-risk-management"></a>개인 정보 위험 관리
 
@@ -60,23 +61,23 @@ Microsoft Priva 사용할 준비가 되면 다음 단계에 따라 필수 구성
 1. [구독 및 라이선스 확인](priva-setup.md#confirm-subscriptions-and-licensing)
 1. [사용자 권한 설정 및 역할 할당](priva-setup.md#set-user-permissions-and-assign-roles)
 1. "평가판 시작"을 선택하면 다음이 수행됩니다.
-    - Priva 평가판 라이선스가 활성화됩니다(실시간으로 발생).
+    - Priva 평가판 라이선스를 사용하도록 설정(실시간으로 발생)
     - 개인 정보 보호 인사이트가 생성됩니다(24시간이 소요됨).
 
 ![시작 화면의 화면 캡처입니다.](../media/priva-insights.png)
 
 ## <a name="start-finding-and-visualizing-privacy-risks"></a>개인 정보 위험 찾기 및 시각화 시작
 
-Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시각화를 제공하여 조직에서 저장하는 데이터를 이해하는 데 도움이 됩니다.
+Priva는 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시각화를 제공하여 조직에서 저장하는 데이터를 이해하는 데 도움이 됩니다.
 
-시작하려면 Microsoft Purview 규정 준수 포털 Priva [섹션으로 이동하여](https://compliance.microsoft.com/) 다음 페이지를 봅니다.
+시작하려면 [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com/) Priva 섹션으로 이동하여 다음 페이지를 봅니다.
 
 1. [개요](priva-data-profile.md#explore-the-overview-page): Microsoft 365 환경에서 개인 데이터의 볼륨, 범주, 위치 및 이동을 포함하여 개인 정보 보호 태세에 대한 집계된 보기를 제공합니다. 또한 개인 데이터가 과도하게 공유, 전송 또는 사용되지 않음으로 인해 발생하는 관련 개인 정보 보호 위험의 현재 상태 및 추세를 파악할 수 있습니다.
-1. [데이터 프로필](priva-data-profile.md#explore-the-data-profile-page): 볼륨, 유형 및 위치(스토리지 및 지리)를 포함하여 조직에서 Microsoft 365 저장하는 개인 데이터의 스냅샷을 제공합니다.
+1. [데이터 프로필](priva-data-profile.md#explore-the-data-profile-page): 볼륨, 유형 및 위치(스토리지 및 지리)를 포함하여 조직에서 Microsoft 365에 저장하는 개인 데이터의 스냅샷을 제공합니다.
 
 ## <a name="learn-about-policies"></a>정책에 대해 알아보기
 
-개인 정보 보호 위험 관리는 Microsoft 365 환경에서 개인 정보 보호 위험을 식별하고 쉽게 수정할 수 있는 정책을 설정하는 기능을 제공합니다.
+개인 정보 보호 위험 관리는 Microsoft 365 환경에서 개인 정보 위험을 식별하고 쉽게 수정할 수 있는 정책을 설정하는 기능을 제공합니다.
 
 1. [주요 위험 시나리오에 대해 알아보기](risk-management.md#learn-about-key-risk-scenarios)
 1. [데이터 과다 노출 제한](risk-management.md#limit-data-overexposure)
@@ -120,7 +121,7 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 1. [정책 알림에 대한 교육 콘텐츠 준비](risk-management-notifications.md#prepare-training-content-for-notifications)
 1. [정책에 대한 전자 메일 알림 설정](risk-management-notifications.md#set-user-email-notifications)
 1. [전자 메일 알림 미리 보기 및 사용자 지정](risk-management-notifications.md#preview-and-customize-email-content)
-1. [Teams 알림 보내기](risk-management-notifications.md#send-notifications-in-teams)
+1. [Teams에서 알림 보내기](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>주체 권한 요청에 대한 자세한 정보
 
@@ -144,7 +145,7 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>주체 권한 요청에 대한 데이터 일치 관리
 
-데이터 일치를 사용하면 조직에서 Priva 정확히 제공된 데이터 값을 기반으로 데이터 주체를 식별할 수 있습니다.
+데이터 일치를 통해 조직은 Priva가 정확히 제공된 데이터 값을 기반으로 데이터 주체를 식별할 수 있도록 할 수 있습니다.
 
 1. [데이터 가져오기 준비](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [개인 데이터 스키마 정의](subject-rights-requests-data-match.md#define-the-personal-data-schema)
@@ -152,7 +153,7 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>데이터 검토 및 주체 권한 요청에 대한 공동 작업
 
-주체 권한 요청을 만든 후 Priva 주체에 대한 입력을 사용하여 조직의 Microsoft 365 환경에서 일치 항목을 찾습니다. 이 데이터가 컴파일되면 결과를 검토하고, 포함할 항목을 선택하고, 필요에 따라 정보를 수정할 수 있습니다.
+주체 권한 요청을 만든 후 Priva는 주제에 대한 입력을 사용하여 조직의 Microsoft 365 환경에서 일치 항목을 찾습니다. 이 데이터가 컴파일되면 결과를 검토하고, 포함할 항목을 선택하고, 필요에 따라 정보를 수정할 수 있습니다.
 
 1. [요청 세부 정보 검토 및 진행률 모니터링](subject-rights-requests-workflow.md)
 1. [검색 쿼리 보기 및 편집](subject-rights-requests-create.md#defining-search-settings)  (선택 사항)
@@ -164,12 +165,12 @@ Priva 개인 데이터 자산의 검색을 자동화하고 필수 정보의 시�
 주체 권한 요청에 대한 데이터 검토를 완료한 후 처리 요청으로 이동할 수 있습니다.
 
 1. [데이터 주체에 대한 최종 보고서 준비](subject-rights-requests-reports.md)
-1. [Microsoft Graph API 및 Power Automate 통해 통합 및 확장](subject-rights-requests-automate.md)
+1. [Microsoft Graph API 및 Power Automate를 통해 통합 및 확장](subject-rights-requests-automate.md)
 1. [데이터 보존 관리](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="extend-with-power-automate"></a>Power Automate 사용하여 확장
+## <a name="extend-with-power-automate"></a>Power Automate를 사용하여 확장
 
-ServiceNow에서 티켓을 만들거나 기한에 대한 일정 미리 알림을 추가하는 등 사례 및 사용자에 대한 중요한 작업을 자동화하기 위해 Priva Power Automate 흐름을 사용하도록 설정합니다.
+Priva에 대한 Power Automate 흐름을 사용하도록 설정하여 ServiceNow에서 티켓을 만들거나 기한에 대한 일정 미리 알림을 추가하는 등 사례 및 사용자에 대한 중요한 작업을 자동화할 수 있습니다.
 
 1. [템플릿에서 새 Power Automate 흐름 만들기](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [Power Automate 흐름 공유](subject-rights-requests-automate.md#share-a-power-automate-flow)
